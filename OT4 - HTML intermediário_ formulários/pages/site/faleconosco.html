@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang= "pt-br" >
+<head>
+<meta charset="UTF-8">
+<meta name= "description" content="Site da Coldogo Geladeiras">
+<meta name= "Keywords" content="Geladeiras, Frost-free, Refrigeração">
+<meta name="author" content= "Escola Sistêmica">
+<meta name= "viewport" content= "widht=device-widht, initial-scale=1.0">
+<title>Fale Conosco</title>
+<link rel="stylesheet" type="text/css" href="../../css/site.css">
+</head>
+<body>
+	<header>
+		<img alt="Logo da Coldigo Geladeiras" src="../../imgs/logo.png">
+		<h1>Coldigo Geladeiras</h1>
+ 	</header>
+	<nav>
+		<a href="index.html"><div class="opcao">Inicio</div></a>
+		<a href="pages/site/produtos.html"><div class="opcao">Produtos</div></a>
+		<a href="pages/site/faleconosco.html"><div class="opcao">Fale Conosco</div></a>
+	</nav>
+	<section>
+		<h2>Fale conosco!</h2>
+		<p>Ficou com alguma dúvida? Preencha este formulário e entraremos em contato!</p>
+		<form name="frmfaleconosco" method="get" action="#">
+			<fieldset>
+				<legend>Dados pessoais:</legend>
+				<label for="nome">Nome:</label>
+				<input type="text" name="txtnome" id="nome">
+				<label for="fone">Telefone:</label>
+				<input type="text" name="txtfone" id="fone">
+				<label for="email">E-mail:</label>
+				<input type="email" name="txtmail" id="email">
+			</fieldset>
+			<fieldset>
+				<legend>Motivo do contato>:</legend>
+			</fieldset>
+			<fieldset>
+				<legend>Motivo do contato:</legend>
+				<label for="motivo">Motivo:</label>
+				<select name="selemotivo" id="motivo">
+					<option value="">Escolha</option>
+					<option value="RE">Reclamação</option>
+					<option value="SU">Sugestão</option>
+					<option value="PR">informação sobre produto</option>
+				</select>
+				<label for="comentario">Comentário:</label>
+				<textarea name="txacomentario" id="comentario"></textarea>
+				<button type="reset">Limpar</button>
+				<button type="submit">Enviar</button>
+			</fieldset>
+		</form>
+	</section>
+	<footer>Copyright &copy; Escola Sistêmica 2019</footer>
+</body>
+</html>
